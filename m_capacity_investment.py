@@ -4,7 +4,7 @@
 #  main.py
 # =============================================================================
 import sys
-sys.path.append('C:\PhD_Chalmers\Python\Lib\site-packages') ## adding directory
+sys.path.append("C:\Users\kanx\Documents\GitHub\ssdp_assignment_v2") ## adding directory
 import pandas as pd
 import datetime
 import time
@@ -15,7 +15,6 @@ from copy import deepcopy
 from itertools import repeat
 from multiprocessing import Pool,freeze_support
 from operator import itemgetter 
-
 from p_slice import pp_avail_slice
 from p_plant import pp_list,marginal_cost
 from p_sys import CarbonTax_lst, hurdle_r 
