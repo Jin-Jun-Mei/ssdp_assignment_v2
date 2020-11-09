@@ -15,11 +15,11 @@ from p_sys import CarbonTax_lst ,hurdle_r as h_r
 
 pp_list =['coal','gas','nuclear','solar','wind']
 ##================================================
-coal_pp = {'plant_type': 'coal', 'capacity':500*10**3,'running_cost': 2,'investment_cost':145000*500*10**3,'lifetime':40,'emission_intensity':0.001}
-gas_pp = {'plant_type': 'gas', 'capacity':500*10**3,'running_cost': 4.5,'investment_cost':90000*500*10**3,'lifetime':30,'emission_intensity':0.00045}
-nuclear_pp = {'plant_type': 'nuclear', 'capacity':500*10**3,'running_cost': 1,'investment_cost':600000*500*10**3,'lifetime':40,'emission_intensity':0}
-solar_pp = {'plant_type': 'solar', 'capacity':500*10**3,'running_cost': 0,'investment_cost':80000*500*10**3,'lifetime':25,'emission_intensity':0}
-wind_pp = {'plant_type': 'wind', 'capacity':500*10**3,'running_cost': 0,'investment_cost':150000*500*10**3,'lifetime':25,'emission_intensity':0}
+coal_pp = {'plant_type': 'coal', 'capacity':1000*10**3,'running_cost': 2,'investment_cost':145000*500*10**3,'lifetime':40,'emission_intensity':0.001}
+gas_pp = {'plant_type': 'gas', 'capacity':1000*10**3,'running_cost': 4.5,'investment_cost':90000*500*10**3,'lifetime':30,'emission_intensity':0.00045}
+nuclear_pp = {'plant_type': 'nuclear', 'capacity':1000*10**3,'running_cost': 1,'investment_cost':600000*500*10**3,'lifetime':40,'emission_intensity':0}
+solar_pp = {'plant_type': 'solar', 'capacity':1000*10**3,'running_cost': 0,'investment_cost':80000*500*10**3,'lifetime':25,'emission_intensity':0}
+wind_pp = {'plant_type': 'wind', 'capacity':1000*10**3,'running_cost': 0,'investment_cost':150000*500*10**3,'lifetime':25,'emission_intensity':0}
 ##================================================
 capacity = {'nuclear':500*10**3,'coal':500*10**3,'gas':500*10**3,'solar':500*10**3,'wind':500*10**3}
 investment_cost = {'nuclear':600000*500*10**3,'coal':145000*500*10**3,'gas':90000*500*10**3,'solar':80000*500*10**3,'wind':150000*500*10**3}

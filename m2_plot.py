@@ -8,8 +8,8 @@ plot the results, i.e capacity installed and dispatches.
 @author: jinxi
 """
 #  
-import sys
-sys.path.append('C:\PhD_Chalmers\Python\Lib\site-packages') ## adding directory
+#import sys
+#sys.path.append('C:\PhD_Chalmers\Python\Lib\site-packages') ## adding directory
 import pdb
 # ~ pdb.set_trace()
 import matplotlib.pyplot as plt

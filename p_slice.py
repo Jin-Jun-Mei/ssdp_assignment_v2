@@ -4,7 +4,7 @@
 ##  p_slice.py
 ##================================================
 import sys
-sys.path.append('C:\PhD_Chalmers\Python\Lib\site-packages') ## adding directory
+#sys.path.append('C:\PhD_Chalmers\Python\Lib\site-packages') ## adding directory
 import pandas as pd
 
 if __name__ == "p_slice":
